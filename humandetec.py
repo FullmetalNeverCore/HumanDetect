@@ -20,6 +20,6 @@ regi, _ = hg.detectMultiScale(cv, winStride=(4, 4), padding=(4, 4), scale=1.05)
 for (x,y,w,h) in regi:
     cv2.rectangle(cv, (x, y),(x + w, y + h), (0,0,255), 2)
 
-cv2.imshow("Люди", cv)
+cv2.imshow("Тело блять", cv)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
